@@ -19,11 +19,19 @@ list-style-type:none;
  h1 {
  font-family: monospace;
  font-size: 60px; 
- color: black; 
+ color: #25303C; 
  text-align: center;
  
  }
 
+h3 {
+ font-family: monospace;
+ font-size: 20px; 
+ color: white; 
+ text-align: left;
+ margin-left: 5px;
+ 
+ }
 
 
 #bande_horizontale{
@@ -32,8 +40,8 @@ margin: 0px;
 border: none;
 width: 100%;
 height: 200px;
-background: #f06;
-background: linear-gradient(45deg, #f06, yellow);
+background: #25303C;
+background: linear-gradient(45deg, #25303C, black);
 min-height: 30%;
 }
 #wrap {min-height: 100%;}
@@ -45,8 +53,8 @@ min-height: 30%;
 	margin-top: -180px; 
 	height: 180px;
 	clear:both;
-	background: #f06;
-	background: linear-gradient(45deg, #f06, yellow);
+	background: #25303C;
+	background: linear-gradient(45deg, #25303C, black);
 	min-height: 30%;
 } 
 
@@ -73,7 +81,7 @@ min-height: 30%;
   left: 50%;
   top: 50%;
   margin-left: -65px;
-  margin-top: 600px;
+  margin-top: 620px;
   position: absolute;
 }
 
